@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Calculadora Fases da vida.js"></script>
+    <link rel="stylesheet" href="Calculadora Fases da vida.css">
+    
+</head>
+
+<div class="margem">
+<header>
+    <h1>Calculadora de fase da vida</h1><br><br>
+</header>
+<body>
+    <label class="INome">Insira seu nome:</label>
+    <input class="nome" type="text" id="nome" onkeyup="validarNome()" placeholder="Ex:Carlos"><br><br><br>
+    <label class="IIdade">Insira sua idade:</label>
+    <input class="idade" type="text" id="idade" onkeyup="validarIdade()" placeholder="Ex:16"><br><br><br>
+    <button id="Enviar" class="Enviar" type="submit" onclick="verificarFaseDaVida()">Calcular</button><br>
+
+    <div id="resultado" class="resultado"></div>
+
+    
+</body>
+</div>
+</html>
